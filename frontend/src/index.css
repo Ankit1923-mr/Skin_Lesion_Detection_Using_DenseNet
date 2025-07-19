@@ -1,0 +1,93 @@
+.app-wrapper {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #fafbfc;
+  border-radius: 8px;
+  box-shadow: 0 3px 16px rgba(0,0,0,0.07);
+}
+
+.input-form > div {
+  margin-bottom: 1.1rem;
+}
+.input-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+.input-form input[type="file"] {
+  margin-top: 0.5rem;
+}
+.input-form select, .input-form input[type="number"] {
+  margin-top: 0.3rem;
+  padding: 0.3rem 0.4rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #b3c7d6;
+}
+
+.input-form button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  background: #2878b8;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.20s;
+}
+.input-form button:disabled {
+  background: #8badc9;
+}
+.preview-image {
+  display: block;
+  margin: 1rem 0 0.4rem 0;
+  width: 200px;
+  height: auto;
+  border: 2px solid #d3e1ee;
+  border-radius: 6px;
+}
+.prediction-result {
+  background: #f5ffd0;
+  border: 1px solid #dbeea2;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 7px;
+}
+.prediction-label {
+  color: #1d6a36;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.prob-table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+  width: 100%;
+}
+.prob-table th, .prob-table td {
+  border: 1px solid #afceaa;
+  padding: 0.48em 0.8em;
+  font-size: 0.98em;
+}
+.prob-table th {
+  background: #e0f5e9;
+}
+.prob-table tr:nth-child(even){
+  background: #f7ffe9;
+}
+.error-alert {
+  background: #fff3f3;
+  color: #c23f3f;
+  border: 1px solid #eebcbc;
+  padding: 1em 1.2em;
+  border-radius: 7px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: 1.05em;
+}
