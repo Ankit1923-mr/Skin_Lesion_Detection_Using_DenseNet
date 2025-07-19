@@ -31,6 +31,10 @@ model = load_model(NUM_META_FEATURES, NUM_CLASSES, WEIGHTS_PATH, device)
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def home():
+    return jsonify({"message": "CORS is enabled for all origins."})
+
 @app.route("/predict", methods=['POST'])
 def predict():
     try:

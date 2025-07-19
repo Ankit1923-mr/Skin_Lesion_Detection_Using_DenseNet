@@ -7,7 +7,9 @@ import axios from "axios";
 //  * @param {Object} form - The form fields:
 //  * @returns {Promise<Object>} - The backend response: { predicted_class, class_probabilities }
 //  */
-const API_URL = "http://localhost:5000/predict"; // Adjust if backend runs elsewhere.
+// const API_URL = "http://localhost:5000/predict"; // Adjust if backend runs elsewhere.
+const API_URL = "https://skin-lesion-detection-using-densenet.onrender.com/predict";
+ // Adjust if backend runs elsewhere. //render.com
 
 export default async function predict(form) {
   const formData = new FormData();
