@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Skin_Lesion_Detection_Using_DenseNet/static/css/main.091879cf.css",
+    "main.js": "/Skin_Lesion_Detection_Using_DenseNet/static/js/main.097eb288.js",
+    "static/js/453.670e15c7.chunk.js": "/Skin_Lesion_Detection_Using_DenseNet/static/js/453.670e15c7.chunk.js",
+    "index.html": "/Skin_Lesion_Detection_Using_DenseNet/index.html",
+    "main.091879cf.css.map": "/Skin_Lesion_Detection_Using_DenseNet/static/css/main.091879cf.css.map",
+    "main.097eb288.js.map": "/Skin_Lesion_Detection_Using_DenseNet/static/js/main.097eb288.js.map",
+    "453.670e15c7.chunk.js.map": "/Skin_Lesion_Detection_Using_DenseNet/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.091879cf.css",
+    "static/js/main.097eb288.js"
+  ]
+}
